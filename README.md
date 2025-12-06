@@ -40,7 +40,7 @@ A complete end-to-end online coding interview platform with real-time collaborat
 ### Project Structure
 
 ```
-02-E2E/
+CodingInterviewPlatform/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── components/     # React components
@@ -60,7 +60,10 @@ A complete end-to-end online coding interview platform with real-time collaborat
 │   └── integration.test.js
 ├── package.json            # Root workspace config
 ├── Dockerfile              # Production build
-└── README.md
+├── render.yaml             # Render deployment config
+├── README.md               # This file
+├── DOCKER.md               # Docker guide
+└── RENDER_DEPLOYMENT.md    # Deployment guide
 ```
 
 ## 🚀 Getting Started
@@ -72,9 +75,10 @@ A complete end-to-end online coding interview platform with real-time collaborat
 
 ### Installation
 
-1. **Clone the repository**
+1. **Clone the repository** (if needed)
    ```bash
-   cd 02-E2E
+   git clone <your-repo-url>
+   cd CodingInterviewPlatform
    ```
 
 2. **Install dependencies**
@@ -162,7 +166,7 @@ Access the application at `http://localhost:3000`
 - Production-ready Node.js configuration
 - Automatic frontend build and integration
 
-See [DOCKER.md](DOCKER.md) for detailed Docker setup and troubleshooting.
+See [DOCKER.md](./DOCKER.md) for detailed Docker setup and troubleshooting.
 
 ## 🌐 Cloud Deployment
 
@@ -185,7 +189,7 @@ git push
 
 **Your app will be live at:** `https://your-app-name.onrender.com`
 
-📚 **See [RENDER_DEPLOYMENT.md](RENDER_DEPLOYMENT.md) for complete deployment instructions, troubleshooting, and configuration.**
+📚 **See [RENDER_DEPLOYMENT.md](./RENDER_DEPLOYMENT.md) for complete deployment instructions, troubleshooting, and configuration.**
 
 ### Other Deployment Options
 
