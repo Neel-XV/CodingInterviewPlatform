@@ -23,7 +23,7 @@ git add .
 git commit -m "Initial commit - Coding Interview Platform"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git remote add origin https://github.com/Neel-XV/CodingInterviewPlatform.git
 
 # Push to GitHub
 git push -u origin main

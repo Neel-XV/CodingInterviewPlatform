@@ -77,7 +77,7 @@ CodingInterviewPlatform/
 
 1. **Clone the repository** (if needed)
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Neel-XV/CodingInterviewPlatform.git
    cd CodingInterviewPlatform
    ```
 
