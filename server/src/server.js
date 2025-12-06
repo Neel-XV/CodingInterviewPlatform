@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve static files in production
-const clientBuildPath = path.join(__dirname, '../../client/dist');
+const clientBuildPath = path.join(__dirname, '../client/dist');
 app.use(express.static(clientBuildPath));
 
 // Health check endpoint
